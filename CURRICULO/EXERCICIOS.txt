@@ -1,0 +1,12 @@
+Crie um site em HTML5 com o seu currículo profissional. O currículo deve conter os seguintes dados:
+
+Dados pessoais: nome, estado civil, idade, foto e contatos
+Objetivo: vaga ou cargo pretendido
+Formação: Escolaridade e cursos
+Experiência Profissional: trabalhos e realizações
+Conhecimentos: lista de conhecimentos
+Línguas: nível de conhecimento em línguas estrangeiras.
+Procure usar todos os recursos apresentados em aula (listas, tabelas, imagens, etc.).
+Separe o seu currículo em várias páginas e faça links para navegar entre elas.
+
+Compacte as páginas e envie através do formulário a seguir.
