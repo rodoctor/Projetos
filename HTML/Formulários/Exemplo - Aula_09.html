@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulários | Aula 09</title>
+	<meta charset="UTF -8">
+</head>
+<body>
+
+<form>
+	<fieldset>
+		<legend>Dados Pessoais</legend>
+		<label for="Login">Login</label>
+		<input type="text" size="20" name="login" />
+		<br>
+		<input type="email" size="20" placeholder="E-mail" />
+		<br>
+		<input type="color" />
+		<br>
+		<input type="date" />
+	</fieldset>
+
+	<fieldset>
+		<legend>Dados de Acesso</legend>
+		<input type="file" />
+		<br>
+		<input type="number" />
+		<br>
+		<input type="password" />
+		<br>
+		<input type="range" />
+		<br>
+		<input type="radio" name="sexo" />Masculino
+		<input type="radio" name="sexo" />Feminino
+		<br>
+		<input type="checkbox" />Aceito os termos sem ler
+		<br>
+		<textarea rows="5" cols="50">Observações:</textarea>
+		<br>
+		<select name="Estados">
+			<optgroup label="sudeste">
+				<option value="SP">São Paulo</option>
+				<option value="RJ">Rio de Janeiro</option>
+				<option value="MG">Minas Gerais</option>
+			</optgroup>
+			
+			<optgroup label="nordeste">
+				<option value="AM">Amazonas</option>
+			</optgroup>
+			
+		</select>
+		<input type="reset" value="Limpar" />
+		<input type="submit" value="Enviar" />
+	</fieldset>	
+</form>
+
+</body>
+</html>

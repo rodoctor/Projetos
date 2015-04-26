@@ -1,0 +1,83 @@
+﻿<html>
+<head>
+	<title>Formulário 05</title>
+</head>
+<body>
+	<form>
+	<h1>Escola Virtual</h1>
+	<h2>Formulários de Pré-Matrícula</h2>
+
+	<hr align="left" width=60% size="1" color=grey>
+
+	<h3>Dados Pessoais:</h3>
+
+		<label for="txt_nome_alu">
+			Nome do Aluno: <input type="text" name="txt_nome_alu" />
+		</label><br />
+
+		<label for="txt_nasc">
+			Nascimento (dd/mm/aaaa):
+			<label for="dia"><input type="text" size="2" name="dia"/>/</label>
+			<label for="mes"><input type="text" size="2" name="mes"/>/</label>
+			<label for="ano"><input type="text" size="4" name="ano"/></label>
+		</label><br />
+
+		<label for="txt_nome_mae">
+			Nome da Mãe: <input type="text" name="txt_nome_mae" />
+		</label><br >
+
+		<label for="txt_nome_pai">
+			Nome do Pai: <input type="text" name="txt_nome_pai" />
+		</label><br >
+
+		<label for="txt_telefone">
+			Telefone:
+			<label for="DDD">
+				(<input type="text" size="2" name="DDD" />)
+			</label>
+			<label for="tel">
+				Tel:<input type="text" size="9" name="tel" />
+			</label>
+			<label for="ramal">
+				Ramal:<input type="text" size="4" name="ramal" />
+			</label>
+		</label><br >
+
+		<label for="txt_email">
+			Email: <input type="text" name="txt_email" /></label><br >
+
+	<h3>Informações de Matrícula:</h3>
+
+		<label for="btn_serie">
+			Série: <br />
+			<select name="btn_serie">
+				<option value="pre_escolar">Pré escolar</option>
+				<option value="fundamental">Ensino Fundamental</option>
+				<option value="medio">Ensino Médio</option>
+				<option value="superior">Ensino Superior</option>
+			</select><br />
+		</label><br />
+
+		<label for="btn_turno">
+			Turno: <br />
+			<label><input type="radio" value="manha" name="btn_turno" />Manhã</label><br />
+			<label><input type="radio" value="tarde" name="btn_turno" />Tarde</label><br />
+		</label><br />
+
+
+		<label for="btn_ativ_extra">
+			Atividades Extracurriculares: <br />
+			<input type="checkbox" name="btn_ativ_extra" value="Informatica"/>Informática<br />
+			<input type="checkbox" name="btn_ativ_extra" value="Musica"/>Música<br />
+			<input type="checkbox" name="btn_ativ_extra" value="Balet"/>Balet<br />
+			<input type="checkbox" name="btn_ativ_extra" value="Pintura"/>Pintura<br />
+			<input type="checkbox" name="btn_ativ_extra" value="Judo"/>Judo<br />
+			<input type="checkbox" name="btn_ativ_extra" value="Futebol"/>Futebol<br />
+		</label><br />
+
+		<label for="btn_enviar">
+			<input type="submit" name="btn_enviar" value="Enviar"/>
+		</label><br />
+	</form>
+</body>
+</html>
