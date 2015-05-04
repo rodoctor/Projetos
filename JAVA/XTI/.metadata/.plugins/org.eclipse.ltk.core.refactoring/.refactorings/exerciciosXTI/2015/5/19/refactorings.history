@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;exerciciosXTI&apos; to &apos;br.com.exerciciosXTI&apos;&#x0D;&#x0A;- Original project: &apos;exerciciosXTI&apos;&#x0D;&#x0A;- Original element: &apos;exerciciosXTI/src/exerciciosXTI&apos;&#x0D;&#x0A;- Renamed element: &apos;exerciciosXTI/src/br.com.exerciciosXTI&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;exerciciosXTI&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;exerciciosXTI" name="br.com.exerciciosXTI" qualified="false" references="true" stamp="1430698015139" textual="false" version="1.0"/>
+</session>
