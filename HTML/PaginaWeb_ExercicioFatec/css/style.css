@@ -1,0 +1,122 @@
+body {
+margin: 0px;
+padding: 0px;
+background-color: rgb(47,50,44);
+font-family: "Arial";
+}
+
+#pagina {
+width: 1000px;
+height: 100%;
+background-color: orange;
+margin: auto;
+padding: 0px;
+}
+
+#menu {
+background-color: rgb(47,50,44);
+width: 1000px;
+height: 30px;
+/*padding: 1px 0px;*/
+}
+
+/*==========LISTA*/
+#menu ul {
+	font-style: italic;
+	font-weight: bold;
+	text-align: right;
+	color: #FFFFFF;
+}
+
+#menu ul li {
+	padding: 2px 25px;
+	list-style: none;
+	display: inline;
+}
+
+#menu ul li:hover {
+	list-style: none;
+	display: inline;
+	color: rgb(127,143,54);
+}
+/*===================*/
+
+/*=============CABEÇALHO*/
+
+#cabecalho {
+width: 1000px;
+height: 313px;
+}
+
+#header1 {
+background-color: #FFFFFF;
+width: 1000px;
+height: 116px;
+}
+
+#span1 {
+width: 242px;
+height: 116px;
+background-color: #FFFFFF;
+float: left;
+}
+
+#span2 {
+width: 758px;
+height: 116px;
+text-align: center;
+font-style: italic;
+background-color: #FFFFFF;
+float: right;
+}
+
+#header2 {
+background-color: #000000;
+width: 1000px;
+height: 197px;
+clear: both;
+padding-top: 4px;
+}
+/*=========================*/
+
+
+
+/*===============CONTEUDO*/
+#conteudo {
+width: 1000px;
+height: 540px;
+background-color: rgb(47,50,44);
+padding-top: 4px;
+}
+
+#section1 {
+background-color: rgb(153,177,71);
+width: 300px;
+height: 540px;
+float: left;
+}
+
+#section2 {
+background-color: #FFFFFF;
+width: 695px;
+height: 540px;
+float: right;
+}
+
+h1.branco {
+	color: #FFFFFF;
+	font-style: italic;
+}
+
+p {
+	text-align: justify;
+}
+/*=========================*/
+
+
+
+/*==============RODAPÉ*/
+#rodape {
+
+}
+/*=====================*/
