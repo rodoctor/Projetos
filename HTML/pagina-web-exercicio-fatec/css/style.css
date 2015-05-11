@@ -1,0 +1,181 @@
+﻿/*
+title: CSS da página | SOS Mata Atlântica;
+@author: Rodolfo Moreira dos Santos;
+email: rodolfomoreira88@gmail.com;
+*/
+
+* {
+	margin: 0px;
+}
+
+body {
+background-color: rgb(47,50,44);
+font-family: "Arial";
+}
+
+div {
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+ border-radius:10px;
+}
+
+h1 {
+	padding: 15px;
+	font-size: 18px;
+}
+
+h1.branco {
+	color: #FFFFFF;
+	font-style: italic;
+	padding: 15px;
+	font-size: 18px;
+}
+
+p {
+	text-align: justify;
+	padding: 4px 15px 4px;
+	font-size: 14px;
+}
+
+.center {
+	text-align: center;
+}
+
+#pagina {
+background-color: rgb(47,50,44);
+width: 1000px;
+height: auto;
+margin: auto;
+}
+
+
+/*=========================================MENU*/
+#menu {
+	color: #FFFFFF;
+	text-align: right;
+	background-color: rgb(47,50,44);
+	height: auto;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#menu ul {
+ list-style: none;
+ padding: 15px;
+}
+
+#menu li {
+	display: inline;
+	padding: 5px;
+}
+
+#menu li:hover {
+	color: rgb(127,143,54);
+	display: inline;
+	padding: 5px;
+}
+/*===============================================*/
+
+
+
+
+
+
+
+
+/*=======================================CABEÇALHO*/
+#cabecalho {
+	background-color: rgb(47,50,44);
+	height: auto;
+	width: 1000px;
+}
+
+	#header1 {
+		height: auto;
+		padding-bottom: 3px;
+	}
+
+		#span1 {
+			width: 242;
+			height: 116;
+			float: left;
+		}
+
+		#span2 {
+			width: 758;
+			height: 116;
+			text-align: center;
+			float: right;
+			background-color: #FFFFFF;
+			-webkit-border-top-left-radius: 0px;
+			-webkit-border-bottom-left-radius: 0px;
+		}
+
+		#span2 p {
+			padding-top: 20px;
+			font-style: italic;
+		}
+
+	#header2 {
+		float: left;
+		padding-top: 3px;
+	}
+/*================================================*/
+
+
+
+
+
+
+
+
+
+
+/*=========================================CONTEUDO*/
+#conteudo {
+	margin-top: 4px;
+	background-color: rgb(47,50,44);
+	height: auto;
+	width: 1000px;
+	float: left;
+}
+
+#section1 {
+	background-color: rgb(153,177,71);
+	float: left;
+	width: 312px;
+	height: 460px;
+}
+
+#foto-do-mes {
+	text-align: center;
+}
+
+
+#section2 {
+	width: 680px;
+	height: 460px;
+	float: right;
+	background-color: #FFFFFF;
+}
+/*=================================================*/
+
+
+
+
+
+
+
+
+
+
+/*===========================================RODAPE*/
+#rodape {
+	margin-top: 8px;
+	margin-bottom: 50px;
+	float: left;
+	height: auto;
+	width: 1000px;
+	background-color: rgb(153,177,71);
+}
+/*=================================================*/
