@@ -1,0 +1,42 @@
+﻿<html>
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/exercicio01.css">
+	<script type="text/javascript" src="js/exercicio01.js"></script>
+	<title>Exercicio 01 | Introdução ao Javascript</title>
+</head>
+
+<body>
+	<div id="site">
+		<header>
+			<figure>
+				<img src="img/imc.jpg" alt="Logo IMC" />
+			</figure>
+		</header>
+
+		<section>
+			<form id="formulario">
+				<fieldset>
+					<legend>Digite seus dados: </legend>
+					<label for="metros">Metros</label> <input type="text" id="metros">
+					<label for="centimetros">Cm</label> <input type="text" id="centimetros">
+					<label for="peso">Peso</label> <input type="text" id="peso">
+
+					<input type="button" value="Testar" onclick="calcularIMC();">
+
+					<p id="mensagem"></p>
+
+				</fieldset>
+			</form>
+		</section>
+
+		<footer>
+				<figure>
+					<img src="img\imc-rodape.gif" alt="Tabela de referencia IMC">
+				</figure>
+		</footer>
+	</div>
+</body>
+
+</html>

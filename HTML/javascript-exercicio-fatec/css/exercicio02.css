@@ -1,0 +1,22 @@
+* {
+	font-family: 'Calibri';
+
+}
+
+img {
+	width: 230px;
+}
+
+#site {
+	width: 230px;
+	margin: auto;
+}
+
+#formulario {
+	display: block;
+}
+
+#mensagem {
+	color: white;
+	background-color: black;
+}
