@@ -8,10 +8,9 @@ function calcularIMC() {
 	var imc = peso / (altura * altura);
 
 	var mensagem = document.getElementById("mensagem");
-	mensagem.innerHTML = "";
 
+	formulario.imc.value = imc.toFixed(2);
 
-alert(imc);
 
 	if (imc < 18.5) {
 		mensagem.innerHTML = "Abaixo do Peso";
