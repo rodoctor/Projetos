@@ -9,6 +9,7 @@ package br.com.exerciciosXTI;
 /*Comentário de
  * Varias
  * Linhas*/
+
 public class HelloWorld {
 	
 	//Metodo principal da classe

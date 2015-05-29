@@ -1,0 +1,56 @@
+<!-- 
+@autor: Rodolfo Moreira dos Santos
+email: rodolfomoreira88@gmail.com
+title: 03ª aula de JavaScript | Universidade XTI
+ -->
+
+ <html>
+ 	<head>
+ 		<title>Javascript Aula 03 | Universidade XTI</title>
+ 		<meta charset="UTF-8">
+
+		<!-- INICIO DO SCRIPT-->
+		<script type="text/javascript">
+			function ligar() {
+				document.getElementById("xti").src = "img/xlamp_on.png";
+			}
+
+			function desligar() {
+				document.getElementById("xti").src = "img/xlamp_off.png";
+			}
+
+		</script>
+
+		<!-- INICIO DO CSS -->
+ 		<style type="text/css">
+		body {
+			background-color: #000000;
+			text-align: center;
+			vertical-align: middle;
+			font-family: "Calibri";
+			font-size: 20px;
+		}
+
+		p {
+			color: #ffffff;
+		}
+
+		#xti #shutdown {
+			display: block;
+			margin: 20px auto;
+
+		}
+
+
+ 		</style>
+
+ 	</head>
+ 	<body onload="alert('Carregando')"> <!--Mensagem mostrada durante carregamento-->
+ 		<p onmouseover="alert('Pare de passar o mouse rapariga');">Javascript Aula 03</p>
+ 	
+ 		<img src="img/xlamp_off.png" alt="lampada desligada" id="xti" onclick="ligar();" /><br/>
+
+ 		<img src="img/shutdown.png" alt="botão desligar" id="shutdown" width="52" height="52" onclick="desligar();"/>
+ 	
+ 	</body>
+ </html>

@@ -1,0 +1,82 @@
+﻿<!DOCUMENT html>
+<html>
+	<head>
+		<title></title>
+		<meta>
+		<script type="text/javascript" src="js\aula06.js"></script>
+		<link rel="stylesheet" type="text/css" href="css\aula06.css"></link>
+	</head>
+
+<body>
+	<div id="wrapper">
+
+		<div id="topo">
+			<figure id="imagem">
+				<img src="img\imc.png" alt="Imagem Topo IMC">
+			</figure>
+		</div>
+
+		<section id="conteudo">
+			<div id="divformulario">
+				<form id="form">
+					<fieldset>
+						<legend>DIGITE SEUS DADOS:</legend>
+
+						<label for="metros">Metros: </label><input type="text" id="metros" >
+						
+						<label for="centimetros">Cm: </label><input type="text" id="centimetros" >
+						
+						<label for="kilos">Kilos: </label><input type="text" id="kilos" >
+
+						<label for="imc">IMC: </label><input type="text" id="imc" >
+
+						<input type="button" id="validar" value="IMC!" onclick="calcularIMC();">
+
+					</fieldset>
+				</form>
+			</div>
+
+			<div id="tabela">
+				<table>
+					<tr>
+						<td>Resultado</td>
+						<td>Situação</td>
+					</tr>
+					<tr>
+						<td>Abaixo de 17</td>
+						<td>Muito abaixo do peso</td>
+					</tr>
+					<tr>
+						<td>Entre 17 e 18,49</td>
+						<td>Abaixo do peso</td>
+					</tr>
+					<tr>
+						<td>Entre 18,5 e 24,99</td>
+						<td>Peso Normal</td>
+					</tr>
+					<tr>
+						<td>Entre 25 e 29,99</td>
+						<td>Acima do Peso</td>
+					</tr>
+					<tr>
+						<td>Entre 30 e 34,99</td>
+						<td>Obesidade I</td>
+					</tr>
+					<tr>
+						<td>Entre 35 e 39,99</td>
+						<td>Obesidade II (severa)</td>
+					</tr>
+					<tr>
+						<td>Acima de 40</td>
+						<td>Obesidade III (mórbida)</td>
+					</tr>
+				</table>
+			</div>
+
+
+			
+		</section>
+	</div>
+	
+</body>
+</html>
