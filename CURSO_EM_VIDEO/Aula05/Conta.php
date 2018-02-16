@@ -6,6 +6,12 @@
     private $saldo;
     private $status;
 
+    //=============Construtor========
+    public function __construct(){
+      $this->setStatus(false);
+      $this->setSaldo(0);
+    }
+
     //=============Metodos===========
     public function abrirConta($tipo){
       if ($tipo == 'cc') {

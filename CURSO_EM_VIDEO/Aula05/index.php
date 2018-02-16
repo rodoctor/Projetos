@@ -12,10 +12,10 @@
         $c1 = new ContaBanco();
         $c1->setNumConta(0001);
         $c1->setDono('Rodolfo Moreira');
-        $c1->abrirConta('cp');
-        $c1->pagarMensal();
-        $c1->sacar(130);
-        $c1->fecharConta();
+        //$c1->abrirConta('cp');
+        // $c1->pagarMensal();
+        // $c1->sacar(130);
+        // $c1->fecharConta();
         print_r($c1);
        ?>
     </pre>
